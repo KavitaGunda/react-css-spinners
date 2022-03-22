@@ -7,6 +7,14 @@
     "lint": "eslint \"**/*.js\"",
     "lint:fix": "prettier-eslint \"**/*.js\" --write"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged" 
+    }
+  },
+  "lint-staged": {
+    "*.js": ["npm run lint:fix", "git add"]
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/KavitaGunda/react-css-spinners.git"
@@ -31,6 +39,8 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.2.0",
     "eslint-plugin-react": "^7.29.4",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.3.7",
     "prettier-eslint": "^13.0.0",
     "prettier-eslint-cli": "^5.0.1"
   }
