@@ -1,0 +1,20 @@
+{
+  "name": "react-css-spinners",
+  "version": "1.0.0",
+  "description": "css only spinners for React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KavitaGunda/react-css-spinners.git"
+  },
+  "keywords": ["react", "css", "spinners"],
+  "author": "Kavita Gunda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KavitaGunda/react-css-spinners/issues"
+  },
+  "homepage": "https://github.com/KavitaGunda/react-css-spinners#readme"
+}
