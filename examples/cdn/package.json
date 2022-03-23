@@ -1,0 +1,14 @@
+{
+  "name": "cdn",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "author": "Kavita Gunda",
+  "license": "MIT",
+  "dependencies": {
+    "react-css-spinners": "file:../.."
+  },
+  "devDependencies": {
+    "serve": "^13.0.2"
+  }
+}
