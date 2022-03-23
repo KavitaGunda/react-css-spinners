@@ -14,6 +14,7 @@
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
     "test:staged": "jest --findRelatedTests",
+    "test:coveralls": "jest --coverage --coverageReporters=text-lcov | coveralls",
     "storybook": "start-storybook -p 9001 -c storybook",
     "storybook:build": "build-storybook -c storybook"
   },
@@ -87,5 +88,8 @@
     "moduleNameMapper": {
       "\\.css": "<rootDir>/mocks/styles.js"
     }
+  },
+  "dependencies": {
+    "coveralls": "^3.1.1"
   }
 }
