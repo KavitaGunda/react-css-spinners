@@ -1,9 +1,13 @@
 // import { Ellipsis } from '../../../dist/bundle.cjs'
 import React from 'react'
-import { Ellipsis } from 'react-css-spinners'
-function App () {
+import { Ellipsis, Ring, Ripple } from 'react-css-spinners'
+function App() {
   return (
-    <Ellipsis />
+    <>
+      <Ellipsis />
+      <Ring />
+      <Ripple />
+    </>
   )
 }
 

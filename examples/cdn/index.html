@@ -20,10 +20,22 @@
     src="D:\DATA\CODE\preparation\Learn\reactCourses\bot\react-css-spinners\examples\cdn\node_modules\react-css-spinners\dist\bundle.umd.js"></script> -->
 
   <script>
-    const { Ellipsis } = window.ReactCssSpinners;
+    const { Ellipsis, Ring, Ripple } = window.ReactCssSpinners;
     const container = document.getElementById('container')
-    ReactDOM.render(
+    // ReactDOM.render(
+    //   React.createElement(Ellipsis),
+    //   container
+    // )
+
+    const Container = React.createElement(
+      React.Fragment,
+      null,
       React.createElement(Ellipsis),
+      React.createElement(Ring),
+      React.createElement(Ripple),
+    )
+    ReactDOM.render(
+      Container,
       container
     )
   </script>
